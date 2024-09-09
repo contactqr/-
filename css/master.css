@@ -76,6 +76,9 @@ ul {
     border-radius: 10px;
     background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
     animation: 3s spin linear infinite;
+    -webkit-animation: 3s spin linear infinite;
+    -moz-animation: 3s spin linear infinite;
+    -o-animation: 3s spin linear infinite;
 }
 
 .socail::before {
@@ -111,11 +114,19 @@ ul {
     text-align: center;
     margin-right: 10px;
     transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 
 .socail a {
     color: #A2C2C8;
     transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 
 /* Responsive styles */
